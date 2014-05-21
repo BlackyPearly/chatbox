@@ -17,9 +17,9 @@
 					<?php include('script/browser_update.php'); ?>
 						<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 							<!--[if lte IE7]><link rel="stylesheet" href="style_ie.css" /><![endif]-->
-							 <?php include("script/prefixfree.min.php") ; ?>
 								<link rel="stylesheet" href="style/style.css" />
-									</head>
+							 		<?php include("script/prefixfree.min.php") ; ?>
+										</head>
 
 
 		<body>
@@ -35,11 +35,10 @@
 		  	  	<form action="includes/chatbox_post.php" method="post">
 			        <p>
 			        <label for="pseudo" >Pseudo</label> : 
-			        <input type="text" name="pseudo" id="pseudo" class='pseudo' required>
+			        <input type="text" name="pseudo" class='pseudo' required>
 			        <label for="message" >Message</label> :  
-			        <input type="text" name="message" id="message" class='message'required>
-
-			        <input id="textSubmit" type="submit" value="Envoyer" />
+			        <input type="text" name="message" class='message'required>
+			        <input class="textSubmit" type="submit" value="Envoyer" />
 			        </p>
 		    	</form>
 			</div>
